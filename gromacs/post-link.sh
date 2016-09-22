@@ -31,4 +31,4 @@ sed -i "s|source.*|source $INSTALL_BIN/GMXRC.bash|" $INSTALL_BIN/GMXRC.zsh
 cp $INSTALL_DIR/get_gmx $HOME/
 
 # append the new path the list of gromacs versions
-echo 5.1.2,$INSTALL_BIN/GMXRC >> ~/.gromacs_versions
+echo 2016,$INSTALL_BIN/GMXRC >> ~/.gromacs_versions
