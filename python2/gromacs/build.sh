@@ -19,6 +19,6 @@ cmake28 $buildpath/source/gromacs-$VERSION \
         -DCMAKE_GXX_COMPILER=$CXX \
         -DGMX_BUILD_SHARED_EXE=ON
 
-make install -j 4
+make install -j 16
 
 rm -rf $buildpath/versions/gromacs-$VERSION/gnu/{'include','lib64','share/man'}
